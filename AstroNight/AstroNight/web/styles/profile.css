@@ -1,0 +1,125 @@
+
+.blackBack {
+	background-color: black;
+	padding-top: 15px;
+}
+
+.jumbotron {
+    margin-top: 0px;
+    //background-image:url('http://www.mrwallpaper.com/wallpapers/milky-way-night.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+
+.jumbotron .container {
+    position: relative;
+    top:30px;
+    text-align: center;
+}
+
+.jumbotron a {
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
+.menu {
+  background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+  left: -285px;  
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid #636366;
+    font-family: 'Comic Sans MS', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.icon-close {
+    cursor: pointer;
+    padding-left: 10px; 
+    padding-top: 10px;
+}
+
+.icon-menu {
+    color: #0066FF;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 23px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    //text-decoration: none;
+    text-transform: uppercase;
+}
+
+.icon-menu i {
+    margin-right: 5px;
+} 
+
+.circle {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-border-radius: 80em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    border: 5px solid #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.head {
+    //background-image:url('http://www.mrwallpaper.com/wallpapers/milky-way-night.jpg');
+    border-radius: 2%;
+    height: 240px;
+    padding-top: 20px;
+    
+}
+
+.page-wrap .nav{
+    width: 100px;
+    font-size: 25px;
+}
+
